@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/yes4"
+
+    >
+
+        <EditText
+            android:id="@+id/usd"
+            android:layout_width="205dp"
+            android:layout_height="75dp"
+            android:layout_marginVertical="90dp"
+            android:hint="BTC"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textColorLink="@android:color/white"
+            android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/btc"
+        android:layout_width="205dp"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginVertical="90dp"
+        android:hint="USD"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="250dp"
+        android:onClick="click"
+        android:text="BTC to USD" />
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="180dp"
+        android:onClick="click2"
+        android:text="USD to BTC" />
+
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="390dp"
+        android:onClick="reset"
+        android:text="RESET" />
+
+    </RelativeLayout>

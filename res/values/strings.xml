@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Anastasias Cryptocurrency Converter</string>
+
+
+    <string name="usd">USD</string>
+    <string name="gbp">GBP</string>
+    <string name="code">CODE</string>
+    <string name="rate">RATE</string>
+    <string name="rate_float">Rate Float</string>
+
+</resources>
